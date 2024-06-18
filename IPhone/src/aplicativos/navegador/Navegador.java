@@ -5,7 +5,7 @@ package aplicativos.navegador;
 public interface Navegador {
     void abrirNavegador();
 
-    public class Navegador implements IPhone  {
+    public abstract class Navegador  implements Navegador {
 
         @Override
         public void abrirNavegador() {

@@ -5,11 +5,12 @@ public interface MusicPlay {
     void abrirMusicPlay();
 
    
-public class MusicPlay implements IPhone {
+public abstract class MusicPlay implements FaceBook {
 
-   
+    @Override
     public void abrirMusicPlay() {
         System.out.println("Abrindo MusicPlay...");
     }
 }
+
 }

@@ -4,7 +4,7 @@ package aplicativos.telefone;
 public interface Telefone {
     void abrirTelefone();
 
-    public class Telefone implements IPhone {
+    public abstract class Telefone implements Telefone {
 
         @Override
         public void abrirTelefone() {

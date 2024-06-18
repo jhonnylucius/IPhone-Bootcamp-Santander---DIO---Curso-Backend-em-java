@@ -1,14 +1,13 @@
-import java.util.Scanner;
 
-import aplicativos.faceBook.Facebook.FaceBook;
-import aplicativos.facebook.Facebook;
-import aplicativos.musicplay.MusicPlay;
-import aplicativos.navegador.Navegador;
-import aplicativos.telefone.Telefone;
-import aplicativos.whatsapp.WhatsApp;
 
 // src/Iphone.java
-public class IPhone extends aplicativos{
+
+import java.util.Scanner;
+import aplicativos.musicPlay;
+import aplicativos.navegador;
+import aplicativos.telefone;
+import aplicativos.WhatsApp;
+public class Iphone implements aplicativos.faceBook.telefone.whatsApp.navegador.musicPlay {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -25,7 +24,7 @@ public class IPhone extends aplicativos{
 
             switch (opcao) {
                 case 1:
-                    new FaceBook().abrirFacebook();
+                    new Facebook().abrirFacebook();
                     break;
                 case 2:
                     new MusicPlay().abrirMusicPlay();

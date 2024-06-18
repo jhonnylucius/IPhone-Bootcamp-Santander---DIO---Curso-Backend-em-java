@@ -3,7 +3,7 @@ package aplicativos.faceBook;
 public interface Facebook {
     void abrirFacebook();
 
-public class FaceBook implements Facebook {
+public abstrat class FaceBook {
 
     @Override
     public void abrirFacebook() {

@@ -4,7 +4,7 @@ package aplicativos.whatsApp;
 public interface WhatsApp {
     void abrirWhatsApp();
 
- public class WhatsApp implements IPhone  {
+ public abstract class WhatsApp implements WhatsApp  {
 
     @Override
     public void abrirWhatsApp() {
