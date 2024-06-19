@@ -31,6 +31,7 @@ public class Iphone {
             System.out.println("8. Sair");
 
             int escolha = scanner.nextInt();
+            scanner.nextLine();
 
             switch (escolha) {
                 case 1:
