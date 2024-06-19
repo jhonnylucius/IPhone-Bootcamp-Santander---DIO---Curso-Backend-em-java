@@ -12,6 +12,19 @@
 3 - Quando o usuário escolher o aplicativo "YouTube" no terminal, o terminal irá abrir o "YouTube" ou "whatsapp", ou qualquer um dos aplicativos que tenha opção para o usuário. 
 
 4 - Quando o usuário escolher o aplicativo "Telefone" no terminal, neste cenário seguirei o desafio original me mantendo ao basico, apenas incrementando algumas funções a mais, nada muito significativo. NO FIM MESMO DO TERMINAL, FAREMOS TUDO QUE O IPHONE FAZ ATRAVEZ DE OUTROS APLICATIVOS, COMO LIGAR PELO WHATSAPP. 
+
+Menu do Iphone:
+Escolha um aplicativo para abrir:
+1. Spotify
+2. Google Chrome
+3. telefone
+4. FaceBook
+5. WhatsApp
+6. YouTube
+7. Calendário
+8. Sair
+Digite o nº do app para abrí-lo:
+
 </h5>
 </div>
 
