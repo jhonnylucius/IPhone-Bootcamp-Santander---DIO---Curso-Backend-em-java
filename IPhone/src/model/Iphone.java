@@ -57,7 +57,7 @@ public class Iphone {
                     app = new Calendario();
                     break;
                 case 8:
-                    System.out.println("Saindo do iPhone...");
+                    System.out.println("Saindo do IPhone...");
                     executando = false;
                     continue;
                 default:
