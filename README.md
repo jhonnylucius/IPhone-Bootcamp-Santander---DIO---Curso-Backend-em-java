@@ -19,7 +19,7 @@ Escolha um aplicativo para abrir:
 2. Google Chrome
 3. telefone
 4. FaceBook
-5. WhatsApp
+5. WhatsApp (onde também pode fazer ligações)
 6. YouTube
 7. Calendário
 8. Sair
