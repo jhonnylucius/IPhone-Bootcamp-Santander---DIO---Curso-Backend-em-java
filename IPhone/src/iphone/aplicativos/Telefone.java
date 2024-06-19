@@ -1,4 +1,4 @@
-package aplicativos.telefone;
+package iphone.aplicativos;
 
 
 public interface Telefone {
@@ -7,8 +7,7 @@ public interface Telefone {
     public abstract class Telefone implements Telefone {
 
         @Override
-        public void abrirTelefone() {
-            System.out.println("Abrindo Telefone...");
+        public void abrirTelefone();
         }
     }
 
