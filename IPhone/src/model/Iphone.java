@@ -29,6 +29,7 @@ public class Iphone {
             System.out.println("6. YouTube");
             System.out.println("7. Calendário");
             System.out.println("8. Sair");
+            System.out.println("Digite o nº do app para abrí-lo: ");
 
             int escolha = scanner.nextInt();
             scanner.nextLine();
