@@ -7,23 +7,24 @@ import apps.FaceBook;
 import apps.WhatsApp;
 import apps.YouTube;
 import apps.Calendario;
-import telaInicial.Aplicativo;
 
 import java.util.Scanner;
+
+import appabstract.App;
 
 public class Iphone {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        Aplicativo app = null;
+        App app = null;
         boolean executando = true;
 
         while (executando) {
             System.out.println("Escolha um aplicativo para abrir:");
             System.out.println("1. Spotify");
             System.out.println("2. Google Chrome");
-            System.out.println("3. Telefone");
-            System.out.println("4. Facebook");
+            System.out.println("3. telefone");
+            System.out.println("4. FaceBook");
             System.out.println("5. WhatsApp");
             System.out.println("6. YouTube");
             System.out.println("7. Calendário");

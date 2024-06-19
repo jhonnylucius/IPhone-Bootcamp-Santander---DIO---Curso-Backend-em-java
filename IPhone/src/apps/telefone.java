@@ -1,8 +1,8 @@
 package apps;
 
-import telaInicial.Aplicativo;
+import appabstract.App;
 
-public class telefone extends Aplicativo {
+public class telefone extends App {
     @Override
     public void abrir() {
         try {

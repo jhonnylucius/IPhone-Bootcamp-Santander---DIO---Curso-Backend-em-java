@@ -1,8 +1,8 @@
 package apps;
 
-import telaInicial.Aplicativo;;
+import appabstract.App;;
 
-public class WhatsApp extends Aplicativo {
+public class WhatsApp extends App {
     @Override
     public void abrir() {
         try {

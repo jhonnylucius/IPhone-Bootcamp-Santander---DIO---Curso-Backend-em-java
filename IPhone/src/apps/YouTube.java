@@ -1,8 +1,8 @@
 package apps;
 
-import telaInicial.Aplicativo;
+import appabstract.App;
 
-public class YouTube extends Aplicativo {
+public class YouTube extends App {
     @Override
     public void abrir() {
         try {

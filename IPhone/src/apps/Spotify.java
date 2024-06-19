@@ -1,8 +1,8 @@
 package apps;
 
-import telaInicial.Aplicativo;
+import appabstract.App;
 
-public class Spotify extends Aplicativo {
+public class Spotify extends App {
     @Override
     public void abrir() {
         try {

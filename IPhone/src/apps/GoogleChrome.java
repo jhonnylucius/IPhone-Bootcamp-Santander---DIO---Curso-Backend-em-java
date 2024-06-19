@@ -1,8 +1,8 @@
 package apps;
 
-import telaInicial.Aplicativo;;
+import appabstract.App;;
 
-public class GoogleChrome extends Aplicativo {
+public class GoogleChrome extends App {
     @Override
     public void abrir() {
         try {

@@ -1,8 +1,8 @@
 package apps;
 
-import telaInicial.Aplicativo;
+import appabstract.App;
 
-public class FaceBook extends Aplicativo {
+public class FaceBook extends App {
     @Override
     public void abrir() {
         try {

@@ -1,11 +1,12 @@
 package apps;
 
-import telaInicial.Aplicativo;
 import java.time.LocalDate;
 import java.time.format.TextStyle;
 import java.util.Locale;
 
-public class Calendario extends Aplicativo {
+import appabstract.App;
+
+public class Calendario extends App {
     @Override
     public void abrir() {
         LocalDate hoje = LocalDate.now();
