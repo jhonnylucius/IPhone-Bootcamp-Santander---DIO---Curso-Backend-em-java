@@ -1,3 +1,12 @@
+Relações e Comunicações
+Iphone tem uma relação de composição com as diferentes subclasses de App (Spotify, GoogleChrome, Telefone, Facebook, WhatsApp, YouTube, Calendario). Isso significa que o Iphone possui instâncias dessas classes de aplicativos.
+
+Iphone se comunica com o usuário através de um Scanner para obter as escolhas do usuário.
+
+Cada classe de aplicativo (Spotify, GoogleChrome, etc.) se comunica com o sistema operacional ou outros serviços externos para abrir o aplicativo correspondente ou realizar ações relacionadas.
+
+Aqui está um exemplo simplificado do diagrama de classes:
+
 +------------------+           +----------+
 |      Iphone      |           |   App    |
 +------------------+           +----------+
