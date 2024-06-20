@@ -7,11 +7,11 @@ Cada classe de aplicativo (Spotify, GoogleChrome, etc.) se comunica com o sistem
 
 Aqui está um exemplo simplificado do diagrama de classes:
 
-+------------------+           +----------+
-|      Iphone      |           |   App    |
-+------------------+           +----------+
-| - scanner: Scanner|<--------| + abrir()|
-+------------------+           +----------+
++------------------+           +-----------+
+|      Iphone      |           |   App     |
++------------------+           +-----------+
+| - scanner: Scanner|<--------| + abrir()  |
++------------------+           +-----------+
            |                           ^
            | composition               |
            v                           |
