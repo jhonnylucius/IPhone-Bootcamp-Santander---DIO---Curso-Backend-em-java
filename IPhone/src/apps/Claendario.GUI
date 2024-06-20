@@ -1,0 +1,39 @@
+package apps;
+
+import javafx.application.Application;
+import javafx.geometry.Pos;
+import javafx.scene.Scene;
+import javafx.scene.control.Label;
+import javafx.scene.layout.BorderPane;
+import javafx.stage.Stage;
+
+import java.time.LocalDate;
+import java.time.format.TextStyle;
+import java.util.Locale;
+
+public class CalendarioGUI extends Application {
+
+    @Override
+    public void start(Stage primaryStage) {
+        BorderPane root = new BorderPane();
+        root.setStyle("-fx-background-color: white");
+
+        LocalDate hoje = LocalDate.now();
+        String mesAno = hoje.getMonth().getDisplayName(TextStyle.FULL, new Locale("pt", "BR")) + " " + hoje.getYear();
+        Label labelMesAno = new Label(mesAno);
+        labelMesAno.setStyle("-fx-font-size: 20px; -fx-font-weight: bold; -fx-padding: 10px");
+        BorderPane.setAlignment(labelMesAno, Pos.TOP_CENTER);
+        root.setTop(labelMesAno);
+
+        // Coloque aqui a lógica para criar o calendário conforme desejado
+
+        Scene scene = new Scene(root, 400, 300);
+        primaryStage.setTitle("Calendário");
+        primaryStage.setScene(scene);
+        primaryStage.show();
+    }
+
+    public static void main(String[] args) {
+        launch(args);
+    }
+}
