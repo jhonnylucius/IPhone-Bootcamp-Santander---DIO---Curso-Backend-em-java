@@ -13,13 +13,26 @@
 
 4 - Quando o usuário escolher o aplicativo "Telefone" no terminal, neste cenário seguirei o desafio original me mantendo ao basico, apenas incrementando algumas funções a mais, nada muito significativo. NO FIM MESMO DO TERMINAL, FAREMOS TUDO QUE O IPHONE FAZ ATRAVEZ DE OUTROS APLICATIVOS, COMO LIGAR PELO WHATSAPP. 
 
+<h3>Temos as seguintes classes para o nosso projeto de iPhone:</h3>
+
+- App (classe abstrata)
+- Spotify (subclasse de App)
+- GoogleChrome (subclasse de App)
+- Telefone (subclasse de App)
+- Facebook (subclasse de App)
+- WhatsApp (subclasse de App)
+- YouTube (subclasse de App)
+- Calendario (subclasse de App)
+- Iphone (classe principal para interação com o usuário)
+
+  
 Menu do Iphone:
 Escolha um aplicativo para abrir:
 1. Spotify
 2. Google Chrome
 3. telefone
 4. FaceBook
-5. WhatsApp
+5. WhatsApp (onde também pode fazer ligações)
 6. YouTube
 7. Calendário
 8. Sair
