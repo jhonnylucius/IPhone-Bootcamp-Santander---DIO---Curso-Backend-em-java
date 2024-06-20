@@ -12,6 +12,7 @@
 3 - Quando o usuário escolher o aplicativo "YouTube" no terminal, o terminal irá abrir o "YouTube" ou "whatsapp", ou qualquer um dos aplicativos que tenha opção para o usuário. 
 
 4 - Quando o usuário escolher o aplicativo "Telefone" no terminal, neste cenário seguirei o desafio original me mantendo ao basico, apenas incrementando algumas funções a mais, nada muito significativo. NO FIM MESMO DO TERMINAL, FAREMOS TUDO QUE O IPHONE FAZ ATRAVEZ DE OUTROS APLICATIVOS, COMO LIGAR PELO WHATSAPP. 
+5 - Por fim, acrescentei uma interface grafica simples, basta executar o IphoneGUI.java agora e clique na sua escolha...
 
 <h3>Temos as seguintes classes para o nosso projeto de iPhone:</h3>
 
