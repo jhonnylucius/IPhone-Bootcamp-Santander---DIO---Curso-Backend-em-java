@@ -26,6 +26,7 @@
 - YouTube (subclasse de App)
 - Calendario (subclasse de App)
 - Iphone (classe principal para interação com o usuário)
+- IphoneGUI (interface gráfica simples)
 
   
 Menu do Iphone:
