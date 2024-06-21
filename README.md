@@ -13,7 +13,7 @@
 
 4 - Quando o usuário escolher o aplicativo "Telefone" no terminal, neste cenário seguirei o desafio original me mantendo ao basico, apenas incrementando algumas funções a mais, nada muito significativo. NO FIM MESMO DO TERMINAL, FAREMOS TUDO QUE O IPHONE FAZ ATRAVEZ DE OUTROS APLICATIVOS, COMO LIGAR PELO WHATSAPP.
 
-5 - Por fim, acrescentei uma interface grafica simples, basta executar o IphoneGUI.java agora e clique na sua escolha...
+5 - Por fim, acrescentei uma interface grafica simples para interação com o usuário com apenas um cclique para abir seu app. Basta executar o IphoneGUI.java agora e clique na sua escolha...
 
 <h3>Temos as seguintes classes para o nosso projeto de iPhone:</h3>
 
